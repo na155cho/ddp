@@ -1,0 +1,151 @@
+.titulos{
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 47px;
+text-align: center;
+color: white;
+padding-bottom: 25px;
+padding-top: 25px;
+border-style: solid none solid;  
+}
+p{font-family: 'Noto Sans';
+font-style: normal;
+font-size: 32px;
+color: black;
+}
+/*botones*/
+.header{
+background-color: black;
+background-repeat: no-repeat;
+background-position: center;
+position: fixed;
+width: 100%;
+height: 100px;
+left: 0px;
+top: 0px;
+}
+.botones{
+display: flex;
+text-align: center;
+margin: 0 auto ;
+justify-content: space-between;
+margin-top: 40px;
+max-width: 1200px;}
+.menu{
+list-style: none;
+}
+    
+.links:hover {
+opacity: 0.6;
+color: #880510;
+}
+    
+.links{color: white;
+text-decoration: none;
+    
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 47px;
+
+display: flex;
+align-items: center;
+text-align: center;
+}
+/*main*/    
+main{margin-top: 100px;
+}
+.textointro{
+text-align: center;
+background-color: #d9d9d9;
+width: 100%;
+padding-bottom: 25px;
+padding-top: 25px;
+border-radius: 5px;    
+}
+.libros{display: flex;
+background-color: #d9d9d9;
+width: 100%;
+margin-bottom: 100px;
+margin-top: 100px;
+border-radius: 5px;
+}
+.textolibros{text-align: left;
+padding-right: 100px;
+padding-left: 100px;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.imageneslibros{margin-right: 100px;
+padding-top: 15px;}
+.comprar{background-color: black;
+padding: 5px;
+color: white;
+text-decoration: none;
+margin-top: 10px;
+text-align: center;
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-size: 40px;
+}
+.comprar:hover{color: #880510;}
+/* footer */
+footer{margin-top: 100px;
+width: 100%;
+padding: 25px 0px;
+background-color: #d9d9d9;
+border-style: solid none none;
+border-color: #880510;}
+.container__footer{display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+max-width: 1200px;
+margin: auto;
+margin-top: 1%;
+}
+.box__footer{
+display: flex;
+flex-direction: column;
+margin-bottom: 150px;
+}
+.alinear{display: flex;
+flex-direction: column;
+text-align: left;
+margin-left: 110px;}
+.linkssponsors{
+margin-left: 40px;}
+    
+.redes{display: flex;
+flex-direction: column;
+text-align: center;
+}
+.linksredes{
+color: black;
+text-decoration: none;
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 44px;
+}
+    
+.titulosfooter{font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 47px;}
+    
+.sponsors{display: flex;
+flex-direction: column;
+color: black;
+text-align: center;}
+.linkssponsors{text-decoration: none;
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 44px;
+color: black;}
